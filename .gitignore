@@ -1,0 +1,31 @@
+# Ignorar arquivos compilados Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar diretórios temporários de projeto
+*__pycache__/
+
+# Ignorar arquivos de histórico no diretório files
+files/history/*.json
+
+# Ignorar ambiente virtual (caso exista)
+env/
+venv/
+
+# Ignorar arquivos de dependências (caso esteja usando virtualenv ou similar)
+*.egg-info/
+*.dist-info/
+*.log
+
+# Ignorar arquivos de configuração do IDE (como PyCharm, VSCode, etc)
+.idea/
+.vscode/
+
+# Ignorar arquivos de cache do Python específicos por versão
+*.cpython-312.pyc
+*.cpython-39.pyc
+
+# Privace data
+application/config/config.py
+
